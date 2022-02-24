@@ -1,0 +1,120 @@
+#cantantes h3 {
+    text-align: center;
+    font-size: 1.9em;
+    margin-top: -10px;
+    font-weight: 300;
+}
+
+#cantantes article {
+    background: #6a7b76;
+}
+
+.sobre-ltb {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 1em;
+}
+
+.sobre-ltb img{
+    width: 40%;
+    border-radius: 50%;
+    border: .5em solid #3a4e48 ;
+}
+
+.sobre-ltb h4{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 1.9em;
+    letter-spacing: 1em;
+    padding-left: 1.5em;
+    
+}
+
+.sobre-ltb p {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+.sobre-bvala {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 1em;
+}
+
+.sobre-bvala img{
+    width: 40%;
+    border-radius: 50%;
+    border: .5em solid #3a4e48 ;
+}
+
+.sobre-bvala h4{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 1.9em;
+    letter-spacing: .3em;
+    padding-left: 1.5em;
+    
+}
+
+.sobre-bvala p {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+@media (min-width:1024px) {
+
+    .sobre-ltb {
+       
+       flex-direction: row;
+       height: 20em;
+        
+    }
+
+    .sobre-ltb h4 {
+        text-align: left;
+        padding-left: 0;
+        font-size: 3em;
+    }
+
+    .sobre-ltb p {
+        text-align: justify;
+    }
+    .sobre-ltb .info {
+        padding-left: 5em;
+    }
+
+
+    .sobre-bvala {
+       
+        flex-direction: row-reverse;
+        height: 20em;
+         
+     }
+ 
+     .sobre-bvala h4 {
+         text-align: right;
+         padding-left: 0;
+         font-size: 3em;
+     }
+ 
+     .sobre-bvala p {
+         text-align: justify;
+     }
+     .sobre-bvala .info {
+         padding-right: 5em;
+     }
+}

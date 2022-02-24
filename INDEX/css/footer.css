@@ -1,0 +1,19 @@
+
+footer{
+    background:rgba(4, 3, 3, 0.9);
+    color: white;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+.flex-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background:rgba(4, 3, 3, 0.9);
+    align-items: center;
+}
+
+.rss img {
+    height: 1em;
+    padding-left: .9em;
+}
